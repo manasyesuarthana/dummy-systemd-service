@@ -8,7 +8,7 @@ This project is a part of the roadmap.sh DevOps project series, specifically [Du
 ## Steps for Completion
 
 ### 1. Create Service Script
-Write a shell script for the dummy service. Mine will be similar to the one given in the project guidelines, which is the output a statement and output it into a file in `/var/log`. 
+Write a shell script for the dummy service. Mine will be similar to the one given in the project guidelines, which is the output a statement and output it into a file in `/var/log` for every 10 seconds. 
 
 **dummy.sh**:
 ```bash
