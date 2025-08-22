@@ -1,5 +1,5 @@
 # Dummy Systemd Service
-This project involves creating a dummy systemd service that we can start, stop, enable, and disable. For this scenario, this service will output a statement and output it into a log in `/var/log`.
+This project involves creating a dummy systemd service that we can start, stop, enable, and disable. For this scenario, this service will output a statement and logs it into a file in `/var/log`.
 
 This README.md will lay out the steps on how I achieved this and how the reader can do the same. 
 
