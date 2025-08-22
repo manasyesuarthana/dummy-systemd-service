@@ -1,0 +1,13 @@
+[Unit]
+Description=Systemd Dummy Service
+After=network.target
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=root
+ExecStart=/path/to/dummy.sh
+
+[Install]
+WantedBy=multi-user.target
