@@ -8,7 +8,7 @@ This project is a part of the roadmap.sh DevOps project series, specifically [Du
 ## Steps for Completion
 
 ### 1. Create Service Script
-Write a shell script for the dummy service. Mine will be similar to the one given in the project guidelines, which is the output a statement and output it into a file in `/var/log` for every 10 seconds. 
+Write a shell script for the dummy service. Mine will be similar to the one given in the project guidelines, which is to output a statement and output it into a file in `/var/log` for every 10 seconds. 
 
 **dummy.sh**:
 ```bash
@@ -24,7 +24,7 @@ while true
 In the script above, the statement is `Hello systemd...` into `/var/log/dummy-service.log`. This line requires sudo because writing into the `/var/log` directory requires root privileges.
 
 ### 2. Create a .service file
-The service name will by dummy, so the service will be called `dummy.service`. 
+The service name will be dummy, so the service will be called `dummy.service`. 
 
 **dummy.service**:
 ```
